@@ -16,7 +16,7 @@ Personal dotfile configuration managed with [chezmoi](https://www.chezmoi.io/).
 sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply $GITHUB_USERNAME
 
 # Or with custom repo
-./install.sh https://github.com/byvaT/byvaT-dotfile.git
+./install.sh https://github.com/ButForget/dotfiles.git
 ```
 
 ## Manual Setup
@@ -28,7 +28,7 @@ sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply $GITHUB_USERNAME
 
 2. Clone this repository to chezmoi's source directory:
    ```bash
-   git clone https://github.com/byvaT/byvaT-dotfile.git ~/.local/share/chezmoi
+   git clone https://github.com/ButForget/dotfiles.git ~/.local/share/chezmoi
    ```
 
 3. Apply configurations:
