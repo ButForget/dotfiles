@@ -1,0 +1,14 @@
+#
+# ~/.bash_profile
+#
+
+[[ -f ~/.bashrc ]] && . ~/.bashrc
+
+# uv
+export PATH="/home/byva_T/.local/bin:$PATH"
+
+export EDITOR=nvim
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
