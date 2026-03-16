@@ -9,7 +9,8 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
-cd ~
-
+if [[ -z "$CHEZMOI" ]] && [[ -t 0 ]]; then
+  cd ~
+fi
 # uv
 export PATH="/home/byva_T/.local/bin:$PATH"
