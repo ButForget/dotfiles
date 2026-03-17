@@ -1,0 +1,13 @@
+{
+  "preset": "byvaT's preset",
+  "presets": {
+    "copilot": {
+      "orchestrator": { "model": "minimax/MiniMax-M2.5", "variant": "", "skills": ["*"], "mcps": ["websearch"] },
+      "oracle": { "model": "minimax/MiniMax-M2.5", "variant": "", "skills": [], "mcps": [] },
+      "librarian": { "model": "github-copilot/grok-code-fast-1", "variant": "", "skills": [], "mcps": ["websearch", "context7", "grep_app"] },
+      "explorer": { "model": "github-copilot/grok-code-fast-1", "variant": "", "skills": [], "mcps": [] },
+      "designer": { "model": "github-copilot/gemini-3.1-pro-preview", "variant": "", "skills": ["agent-browser"], "mcps": [] },
+      "fixer": { "model": "minmax/MiniMax-M2.5", "variant": "", "skills": [], "mcps": [] }
+    }
+  }
+}
