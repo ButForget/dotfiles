@@ -1,13 +1,13 @@
 {
   "preset": "byvaT's preset",
   "presets": {
-    "copilot": {
-      "orchestrator": { "model": "github-copilot/gpt-5.3-codex", "variant": "high", "skills": ["*"], "mcps": ["websearch"] },
-      "oracle": { "model": "github-copilot/gpt-5.3-codex", "variant": "xhigh", "skills": [], "mcps": [] },
-      "librarian": { "model": "github-copilot/grok-code-fast-1", "variant": "low", "skills": [], "mcps": ["websearch", "context7", "grep_app"] },
-      "explorer": { "model": "github-copilot/grok-code-fast-1", "variant": "low", "skills": [], "mcps": [] },
+    "byvaT's preset": {
+      "orchestrator": { "model": "cchGPT/gpt-5.4", "variant": "high", "skills": ["*"], "mcps": ["websearch"] },
+      "oracle": { "model": "cchGPT/gpt-5.4", "variant": "xhigh", "skills": [], "mcps": [] },
+      "librarian": { "model":"minimax-cn-coding-plan/MiniMax-M2.7", "variant": "", "skills": [], "mcps": ["websearch", "context7", "grep_app"] },
+      "explorer": { "model": "minimax-cn-coding-plan/MiniMax-M2.7", "variant": "", "skills": [], "mcps": [] },
       "designer": { "model": "github-copilot/gemini-3.1-pro-preview", "variant": "medium", "skills": ["agent-browser"], "mcps": [] },
-      "fixer": { "model": "minmax/MiniMax-M2.5", "variant": "", "skills": [], "mcps": [] }
+      "fixer": { "model": "minimax-cn-coding-plan/MiniMax-M2.7", "variant": "", "skills": [], "mcps": [] }
     }
   }
 }
